@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Australia's visit planner</title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
+  </head>
+  <body>
+    <form id="new-place-form">
+      <div id="form-wrapper">
+        <div class="form-item">
+          <label for="place-name" class="form-labels">Place name</label>
+          <input type="text" id="place-name" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="location" class="form-labels">Location</label>
+          <input type="text" id="location" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="details" class="form-labels">Details</label>
+          <input type="text" id="details" required/>
+        </div>
+      </div>
+      <input type="submit" value="save"/>
+    </form>
+    <h1>Places to visit in Australia</h1>
+    <ul id="visit-wish-list"></ul>
+    <div>
+      <input type="button" value="Clear all"/>
+    </div>
+  </body>
+</html>
