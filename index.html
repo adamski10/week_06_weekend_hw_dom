@@ -2,17 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
     <title>Australia's visit planner</title>
     <script src="js/app.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
   </head>
   <body>
-    <h1 id="title">2024 Australia trip plan</h1>
+    <h1 id="title">'2024' Trip to Australia ideas</h1>
+    <!-- <div id="images">
+      <img id="img1" src="css/img1.png"/>
+      <img id="img2" src="css/img2.png"/>
+      <img id="img3" src="css/img3.png"/>
+    </div> -->
     <form id="new-place-form">
       <div id="form-wrapper">
         <div class="form-item">
           <input type="text" name="What" id="name" required/>
-          <label for="place-name" class="form-labels">Place name</label>
+          <label for="place-name" class="form-labels">Name</label>
         </div>
 
         <div class="form-item">
@@ -22,7 +28,7 @@
 
         <div class="form-item">
           <textarea type="text" name="Details" id="details" required></textarea>
-          <label for="details" class="form-labels">Details</label>
+          <label for="details" class="form-labels">Useful Details</label>
         </div>
       </div>
       <input type="submit" value="save"/>
