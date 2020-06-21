@@ -11,32 +11,7 @@ body {
   font-family: "Inconsolata", monospace;
 }
 
-/* #images {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: 100px;
-  grid-auto-columns: 100px;
-  grid-template-areas: 
-    "a a a"
-    "b b b"
-    "c c c";
-}
 
-#img1 {
-  grid-area: a;
-  align-self: end;
-}
-
-#img2 {
-  grid-area: b;
-  align-self: end;
-}
-
-#img3 {
-  grid-area: c;
-  align-self: end;
-} */
 
 #new-place-form > #form-wrapper > #form-item {
   position: relative;
@@ -47,12 +22,12 @@ body {
 }
 
 label.form-labels {
-  display: ;
   float: left;
   text-align: right;
   width: 6em;
   margin-right: 1em;
   margin-top: 0.4em;
+  
 }
 
 input[type=text] {
@@ -89,4 +64,6 @@ input[type=text] {
 #new-entry {
   white-space: pre;
   font-family: "Inconsolata", monospace;
+  color: rgb(243, 213, 248);
+  
 }

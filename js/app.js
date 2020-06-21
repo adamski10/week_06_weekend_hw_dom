@@ -22,7 +22,7 @@ const handleFormSubmit = function(event) {
   // newPlaceName.textContent = `What? ${placeName}`
   // newLocation.textContent = `Where? ${location}`
   // newDetails.textContent = `Any useful details: ${details}`
-  newEntry.textContent = `What?   ${placeName} \r\n Where?  ${location} \r\n Any useful details: ${details}`
+  newEntry.textContent = `What? ${placeName} \r\nWhere? ${location} \r\nUseful details: ${details}`
   newEntry.id = "new-entry"
 
 
