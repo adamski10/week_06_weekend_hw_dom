@@ -7,28 +7,29 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
   </head>
   <body>
+    <h1 id="title">2024 Australia trip plan</h1>
     <form id="new-place-form">
       <div id="form-wrapper">
         <div class="form-item">
+          <input type="text" name="What" id="name" required/>
           <label for="place-name" class="form-labels">Place name</label>
-          <input type="text" id="name" required/>
         </div>
 
         <div class="form-item">
+          <input type="text" name="Where" id="location" required/>
           <label for="location" class="form-labels">Location</label>
-          <input type="text" id="location" required/>
         </div>
 
         <div class="form-item">
+          <textarea type="text" name="Details" id="details" required></textarea>
           <label for="details" class="form-labels">Details</label>
-          <input type="text" id="details" required/>
         </div>
       </div>
       <input type="submit" value="save"/>
     </form>
-    <h1>Places to visit in Australia</h1>
+    <h1 id="list">Places we would like to see</h1>
     <ul id="visit-wish-list"></ul>
-    <div>
+      
       <input type="button" id="clear-all" value="Clear all"/>
     </div>
   </body>
